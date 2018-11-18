@@ -28,7 +28,7 @@ The algorithm is going to illustrate the reputation based on the the following a
 3. Public figure with more news results in higher reputation
 4. Public figure with frequent news results in stabler reputation
 5. Public figure being stated at the beginning in the article is more important to one being stated at the end
-6. Higher relationship between public figures' name reported closely in the article
+6. Public figure will remember others in the same article of itself
 
 The algorithm is simply build a undirected graph that each vertex is representing a public figure and each edge is representing two public figures has appeared in the same news. The edge weight/distance is calculated according to the `forgetting curve` (details stated in reference). 
 
